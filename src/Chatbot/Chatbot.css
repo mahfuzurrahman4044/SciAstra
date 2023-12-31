@@ -1,0 +1,26 @@
+.chatbot-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: green;
+  padding: 5px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 15px;
+  left: 1330px;
+}
+
+@media screen and (max-width: 430px) {
+  .chatbot-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: green;
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 270px;
+  }
+}
